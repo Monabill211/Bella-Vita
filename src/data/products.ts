@@ -1,11 +1,10 @@
 export const products = [
-  { id: 1, name: "Rose Petal Hair Oil", price: 38, category: "hair", image: "src/iamge/WhatsApp Image 2026-03-11 at 7.54.03 PM.jpeg" },
-  { id: 2, name: "Silk Repair Shampoo", price: 28, category: "hair", image: "src/iamge/WhatsApp Image 2026-03-11 at 7.54.03 PM (1).jpeg" },
-  { id: 3, name: "Glow Serum", price: 52, category: "hair", image: "src/iamge/WhatsApp Image 2026-03-11 at 7.53.59 PM (1).jpeg" },
-  { id: 4, name: "Velvet Moisturizer", price: 44, category: "face", image: "src/iamge/WhatsApp Image 2026-03-11 at 7.54.02 PM.jpeg" },
-  // { id: 5, name: "Hydra Face Mist", price: 26, category: "face", image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&h=500&fit=crop" },
-  { id: 6, name: "Shea Body Butter", price: 34, category: "body", image: "src/iamge/WhatsApp Image 2026-03-11 at 7.54.01 PM.jpeg" },
-  { id: 7, name: "Lavender Body Wash", price: 22, category: "body", image: "src/iamge/WhatsApp Image 2026-03-11 at 7.53.59 PM.jpeg" },
+  { id: 1, name: "Shampoo Rosmarino 500ml", price: 140, category: "hair", image: "src/iamge/WhatsApp Image 2026-03-11 at 7.54.03 PM.jpeg" },
+  { id: 2, name: "Hiar Care سيرم ", price: 300, category: "hair", image: "src/iamge/WhatsApp Image 2026-03-11 at 7.54.03 PM (1).jpeg" },
+  { id: 3, name: "Argino 500ml ", price: 140, category: "hair", image: "src/iamge/WhatsApp Image 2026-03-11 at 7.53.59 PM (1).jpeg" },
+  { id: 4, name: " Shea lámagia 100ml   ", price: 140, category: "face", image: "src/iamge/WhatsApp Image 2026-03-11 at 7.54.02 PM.jpeg" },
+  { id: 5, name: " body milk 250ml ", price: 145, category: "body", image: "src/iamge/WhatsApp Image 2026-03-11 at 7.54.01 PM.jpeg" },
+  { id: 6, name: "Pianco 30ml  ", price:120, category: "body", image: "src/iamge/WhatsApp Image 2026-03-11 at 7.53.59 PM.jpeg" },
 ];
 
 export const collections = [

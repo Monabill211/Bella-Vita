@@ -2,7 +2,10 @@ import { Instagram, Facebook,  } from "lucide-react";
 
 const Footer = () => {
   const quickLinks = ["Home", "Hair", "Face", "Body", "About"];
-  
+  const socialLinks = [
+  { icon: Instagram, link: "https://www.instagram.com/bella_veta_1?igsh=d2RqYXZwa2F2ZXc4" },
+  { icon: Facebook, link: "https://www.facebook.com/share/1Bp4wqQA6i/" },
+];
   return (
     <footer id="footer" className="border-t border-border bg-card py-14 md:py-20">
       <div className="container mx-auto px-4">
@@ -35,15 +38,20 @@ const Footer = () => {
           <div>
             <h4 className="mb-4 font-semibold text-foreground">Follow Us</h4>
             <div className="flex gap-4">
-              {[Instagram, Facebook, ].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-all hover:border-primary hover:text-primary"
-                >
-                  <Icon className="h-4 w-4" />
-                </a>
-              ))}
+             {socialLinks.map((item, i) => {
+    const Icon = item.icon;
+
+    return (
+      <a
+        key={i}
+        href={item.link}
+        target="_blank"
+        className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-all hover:border-primary hover:text-primary"
+      >
+        <Icon size={18} />
+      </a>
+    );
+  })}
             </div>
           </div>
         </div>
