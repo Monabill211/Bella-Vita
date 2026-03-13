@@ -1,5 +1,5 @@
 export const products = [
-  { id: 1, name: "Shampoo Rosmarino 500ml", price: 140, category: "hair", image: "/iamge/WhatsApp Image 2026-03-11 at 7.54.03 PM.jpeg" },
+  { id: 1, name: "Shampoo Rosmarino 500ml", price: 140, category: "hair", image: "/iamge/prodect.jpeg" },
   { id: 2, name: "Hiar Care سيرم ", price: 300, category: "hair", image: "/iamge/WhatsApp Image 2026-03-11 at 7.54.03 PM (1).jpeg" },
   { id: 3, name: "Argino 500ml ", price: 140, category: "hair", image: "/iamge/WhatsApp Image 2026-03-11 at 7.53.59 PM (1).jpeg" },
   { id: 4, name: " Shea lámagia 100ml   ", price: 140, category: "face", image: "/iamge/WhatsApp Image 2026-03-11 at 7.54.02 PM.jpeg" },
